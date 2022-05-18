@@ -1,0 +1,211 @@
+# ::id test_amr.81 ::2016-04-24 20:11:42
+# ::snt “ 你 看 ， 你 画 的 不 是 小羊 ” 他 说 。
+(x0 / say-01
+      :arg0  (x2 / he)
+      :arg1  (x12 / see-01
+            :arg0  (x13 / you)
+            :arg1  (x14 / sheep
+                  :mod  (x15 / little)
+                  :domain  (x16 / thing
+                        :arg1-of  (x17 / draw-01
+                              :arg0  (x18 / x13)))
+                  :polarity  (x19 / -))))
+
+# ::id test_amr.82 ::2016-04-24 20:12:30
+# ::snt 是 头 公羊 ，
+(x3 / sheep
+      :mod  (x5 / male)
+      :domain  (x6 / thing))
+
+# ::id test_amr.83 ::2016-01-15 17:47:41
+# ::snt 还 有 犄角 呢 。 ”
+(x0 / say
+      :arg1  (x2 / have-03
+            :manner  (x3 / even)
+            :arg1  (x4 / horn)))
+
+# ::id test_amr.84 ::2016-01-15 17:47:00
+# ::snt 于是 我 又 重新 画 了 一 张 。
+(x0 / causation
+      :arg2  (x3 / draw-01
+            :arg0  (x4 / i)
+            :manner  (x5 / again)
+            :manner  (x6 / restart-01)
+            :arg1  (x7 / picture
+                  :quant  (x8 / 1))))
+
+# ::id test_amr.85 ::2016-02-01 20:23:51
+# ::snt 这 副 画 同 前 几 副 一样 又 被 拒绝 了 。
+(x0 / reject-01
+      :arg1  (x2 / picture
+            :mod  (x3 / this)
+            :arg0-of  (x6 / with
+                  :arg1  (x9 / thing
+                        :mod  (x10 / before)
+                        :quant  (x11 / multiple
+                              :op1  (x12 / temporal-quantity
+                                    :quant  (x13 / 1))))))
+      :manner  (x4 / again)
+      :manner  (x8 / same-01))
+
+# ::id test_amr.86 ::2016-04-28 09:36:38
+# ::snt “ 这 一 只 太 老 了 。
+(x0 / say
+      :arg1  (x2 / old
+            :degree  (x3 / too)
+            :arg0  (x5 / thing
+                  :mod  (x6 / this)
+                  :quant  (x7 / 1))))
+
+# ::id test_amr.87 ::2016-01-15 17:42:58
+# ::snt 我 想要 一 只 能 活 得 长 的 羊 。 ”
+(x0 / say
+      :arg1  (x2 / want-01
+            :arg0  (x3 / i)
+            :arg1  (x4 / sheep
+                  :quant  (x5 / 1)
+                  :arg0-of  (x7 / live-01
+                        :arg0-of  (x9 / possible-01)
+                        :duration  (x10 / long-03)))))
+
+# ::id test_amr.88 ::2016-01-15 17:40:09
+# ::snt 我 不 耐烦 了 。 因为 我 急于 要 检修 发动机 ，
+(x0 / patient-01
+      :polarity  (x2 / -)
+      :arg0  (x3 / i)
+      :cause  (x4 / hurry-01
+            :arg1  (x6 / need-01
+                  :arg0  (x7 / repair-01
+                        :arg0  (x10 / x3)
+                        :arg1  (x11 / engine)))
+            :arg0  (x9 / x3)))
+
+# ::id test_amr.89 ::2016-01-15 17:38:06
+# ::snt 于是 就 草草 画 了 这 张 画 ，
+(x0 / causation
+      :arg2  (x2 / draw-01
+            :manner  (x3 / hasty)
+            :arg1  (x5 / picture
+                  :mod  (x6 / this))))
+
+# ::id test_amr.90 ::2016-01-15 17:37:07
+# ::snt 并且 匆匆 地 对 他 说道 ： “
+(x0 / progression
+      :arg2  (x2 / say-01
+            :arg2  (x3 / he)
+            :manner  (x4 / rush-01)))
+
+# ::id test_amr.91 ::2016-04-24 20:13:17
+# ::snt 这 是 一 只 箱子 ，
+(x9 / box
+      :quant  (x11 / 1)
+      :domain  (x12 / this))
+
+# ::id test_amr.92 ::2016-01-15 17:35:32
+# ::snt 你 要 的 羊 就 在 里面 。 ”
+(x0 / say
+      :arg1  (x7 / sheep
+            :location  (x8 / inside
+            :arg1-of  (x10 / want-01
+                  :arg0  (x11 / you))))
+
+# ::id test_amr.93 ::2016-01-15 17:33:24
+# ::snt 这时 我 十分 惊奇 地 看到 我 的 这 位 小 评判员 喜笑颜开 。 他 说 ： “ 这 正 是 我 想 要 的 ，
+(x0 / multi-sentence
+      :snt1  (x2 / see-01
+            :manner  (x3 /surprise-01
+                  :degree  (x4 / very))
+            :arg0  (x5 / i)
+            :arg1  (x6 / smile-01
+                  :arg0  (x7 / judge
+                        :mod  (x8 / young)
+                        :mod  (x9 / this)
+                        :poss  (x10 / x5)))
+            :time  (x11 / then))
+      :snt2  (x12 / say-01
+            :arg0  (x13 / x7)
+            :arg1  (x14 / want-01
+                  :arg0  (x15 / x7)
+                  :arg1  (x16 / thing
+                        :domain  (x17 / this)
+                        :manner  (x18 / exact)))))
+
+# ::id test_amr.94 ::2016-04-07 16:24:24
+# ::snt 你 说 这 只 羊 需要 很多 草 吗 ？ ”
+(x0 / say
+      :arg1  (x2 / say-01
+            :arg0  (x3 / you)
+            :arg1  (x4 / need-01
+                  :arg0  (x5 / sheep
+                        :mod  (x6 / this))
+                  :arg1  (x7 / grass
+                        :mod  (x8 / much))
+                  :mode  (x10 / interrogative))))
+
+# ::id test_amr.95 ::2016-01-15 17:28:15
+# ::snt “ 为什么 ？ ”
+(x0 / say
+      :arg1  (x2 / cause-01
+            :arg0  (x3 / amr-unknown)
+            :mode  (x4 / interrogative)))
+
+# ::id test_amr.96 ::2016-01-15 17:27:17
+# ::snt “ 因为 我 住 的 地方 一切 都 非常 小 … ”
+(x0 / say
+      :arg1  (x2 / causation
+            :arg1  (x3 / small
+                  :degree  (x4 / very)
+                  :arg0  (x6 / all
+                        :location  (x7 / place
+                              :arg1-of  (x8 / live-01
+                                    :arg0  (x9 / i)))))))
+
+# ::id test_amr.97 ::2016-01-15 17:25:33
+# ::snt 地方 小 也 够 喂养 它 的 。 ”
+(x0 / say
+      :arg1  (x2 / concession
+            :arg1  (x3 / small
+                  :arg0  (x4 / place))
+            :arg2  (x5 / possible-01
+                  :manner  (x6 / still)
+                  :arg2  (x7 / feed-01
+                        :arg1  (x8 / it)))))
+
+# ::id test_amr.98 ::2016-01-15 17:24:00
+# ::snt 我 说
+(x0 / say-01
+      :arg0  (x2 / i))
+
+# ::id test_amr.99 ::2016-01-15 17:23:38
+# ::snt “ 我 给 你 画 的 是 一 只 很 小 的 小羊 ，
+(x0 / say
+      :arg1  (x10 / sheep
+            :mod  (x11 / small)
+            :mod  (x12 / small
+                  :degree  (x13 / very))
+            :quant  (x14 / 1)
+            :domain  (x15 / thing
+                  :arg1-of  (x16 / draw-01
+                        :arg0  (x17 / i)
+                        :beneficiary  (x19 / you)))))
+
+# ::id test_amr.100 ::2016-04-28 15:26:53
+# ::snt 他 把 脑袋 靠近 这 张 画 。 “ 并 不 象 你 说 的 那么 小 … 瞧 ！
+(x0 / multi-sentence
+      :snt1  (x2 / bend-01
+            :arg0  (x3 / head
+                  :part-of  (x4 / he))
+            :arg1  (x5 / picture
+                  :mod  (x6 / this)))
+      :snt2  (x7 / say
+            :arg1  (x19 / and
+                  :op1  (x20 / look-01
+                        :mode  (x21 / expressive))
+                  :op2  (x22 / look-02
+                        :polarity  (x23 / -)
+                        :arg1  (x24 / small
+                              :degree  (x25 / that)
+                              :arg0  (x26 / thing
+                                    :compared-to  (x27 / thing
+                                          :arg1-of  (x28 / say-01
+                                                :arg0  (x29 / you)))))))))
