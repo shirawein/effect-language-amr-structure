@@ -1,0 +1,425 @@
+# ::id test_amr.31 ::2016-01-23 21:27:50
+# ::snt 可是 ， 得到 的 回答 总 是 ： “ 这 是 顶 帽子 。 ”
+(x0 / contrast
+      :arg1  (x2 / receive-01
+            :arg1  (x3 / answer-01
+                  :arg2  (x8 / hat
+                        :domain  (x9 / that)))
+            :time  (x10 / always)))
+
+# ::id test_amr.32 ::2016-04-07 10:50:31
+# ::snt 我 就 不 和 他 谈 巨蟒 呀 ， 原始 森林 呀 ， 或者 星星 之类 的 事 。
+(x0 / talk-01
+      :arg0  (x4 / i)
+      :arg1  (x10 / thing
+            :topic  (x11 / or
+                  :op1  (x12 / boa_constrictor)
+                  :op2  (x13 / forrest
+                        :mod  (x14 / primeval))
+                  :op3  (x15 / star)))
+      :arg2  (x16 / he)
+      :polarity  (x17 / -))
+
+# ::id test_amr.33 ::2016-04-24 17:03:43
+# ::snt 我 只得 迁就 他 的 水平 ，
+(x7 / have to 
+      :arg0  (x9 / i)
+      :arg1  (x10 / adjust-01
+            :arg0  (x11 / x9)
+            :arg1  (x12 / level
+                  :poss  (x13 / he))))
+
+# ::id test_amr.34 ::2016-04-24 17:04:43
+# ::snt 和 他们 谈 些 桥牌 呀 ， 高尔夫球 呀 ， 政治 呀 ， 领带 呀 这些 。
+(x0 / talk-01
+      :arg1  (x2 / those
+            :topic  (x3 / and
+                  :op1  (x4 / bridge)
+                  :op2  (x5 / golf)
+                  :op3  (x6 / politics)
+                  :op4  (x7 / necktie)))
+      :arg0  (x9 / and
+            :op2  (x10 / they)))
+
+# ::id test_amr.35 ::2016-04-24 17:06:04
+# ::snt 于是 大人们 就 十分 高兴 能 认识 我 这样 一 个 通情达理 的 人 。
+(x0 / causation
+      :arg1  (x3 / glad-02
+            :arg0  (x4 / grown-up)
+            :degree  (x5 / very)
+            :arg1  (x7 / possible-01
+                  :arg0  (x8 / know-02
+                        :arg0  (x9 / x4)
+                        :arg1  (x12 / person
+                              :mod  (x13 / such)
+                              :quant  (x14 / 1)
+                              :mod  (x15 / sensible)
+                              :arg0-of  (x16 / mean
+                                    :arg1  (x17 / i)))))))
+
+# ::id test_amr.36 ::2016-04-24 17:12:30
+# ::snt II 。
+(x0 / II)
+
+# ::id test_amr.37 ::2016-04-24 17:13:33
+# ::snt 我 就 这样 孤独 地 生活 着 ， 没有 一 个 能 真正 谈 得 来 的 人 ， 一直 到 六 年 前 在 撒哈拉 沙漠 上 发生 了 那 次 故障 。
+(x8 / and
+      :op1  (x10 / live-01
+            :arg0  (x11 / i)
+            :manner  (x12 / alone)
+            :manner  (x13 / resemble-01)
+      :op2  (x16 / have-03
+            :arg1  (x18 / person
+                  :quant  (x19 / 1)
+                  :arg0-of  (x20 / possible-01
+                        :arg0  (x21 / talk-01
+                              :mod  (x22 / real-04))))
+            :polarity  (x35 / -))
+      :duration  (x40 / until-01
+            :arg0  (x41 / occur-01
+                  :arg0  (x42 / accident
+                        :mod  (x43 / that))
+                  :location  (x44 / desert
+                        :mod  (x45 / Sahara))
+                  :time  (x46 / before
+                        :op1  (x47 / now)
+                        :op2  (x48 / temporal-quantity
+                              :quant  (x49 / 6)
+                              :unit  (x50 / year))))))
+
+# ::id test_amr.38 ::2016-04-24 17:14:18
+# ::snt 我 的 发动机 里 有 个 东西 损坏 了 。
+(x6 / break-01
+      :arg1  (x8 / something
+            :quant  (x11 / 1)
+            :part-of  (x12 / engine
+                  :poss  (x13 / i))))
+
+# ::id test_amr.39 ::2016-04-24 17:17:52
+# ::snt 当时 由于 我 既 没有 带 机械师 也 没有 带 旅客 ， 我 就 试图 独自 完成 这个 困难 的 维修 工作 。
+(x0 / causation
+      :arg1  (x2 / and
+            :op1  (x3 / have-03
+                  :arg0  (x6 / i)
+                  :arg1  (x7 / mechanic)
+                  :polarity  (x25 / -))
+            :op2  (x8 / have-03
+                  :arg0  (x10 / x6)
+                  :arg1  (x11 / passenger)
+                  :polarity  (x26 / -)))
+      :arg2  (x12 / attempt-01
+            :arg0  (x16 / x6)
+            :arg1  (x17 / finish-01
+                  :manner  (x18 / alone)
+                  :arg0  (x19 / x6)
+                  :arg1  (x20 / task-01
+                        :mod  (x21 / repair-01)
+                        :mod  (x22 / difficult)
+                        :mod  (x27 / this)))
+
+# ::id test_amr.40 ::2016-04-18 22:30:16
+# ::snt 这 对 我 来说 是 个 生 与 死 的 问题 。 我 随身 带 的 水 只 够 饮用 一 星期 。
+(x23 / mean-01
+      :arg0  (x25 / this)
+      :arg1  (x26 / i)
+      :arg1  (x27 / question
+            :arg0-of  (x28 / mean
+                  :arg1  (x29 / and
+                        :op1  (x30 / life)
+                        :op2  (x31 / death))))
+      :cause  (x32 / enough
+            :manner  (x33 / only)
+            :arg0  (x34 / water
+                  :arg1-of  (x35 / have-03
+                        :arg0  (x37 / x26)
+                        :manner  (x38 / with me)))
+            :arg1  (x42 / drink-01
+                  :arg0  (x43 / x26)
+                  :arg1  (x44 / x34)
+                  :duration  (x45 / temporal-quantity
+                        :quant  (x46 / 1)
+                        :unit  (x47 / week)))))
+
+# ::id test_amr.41 ::2016-04-24 17:21:49
+# ::snt 第一 天 晚上 我 就 睡 在 这 远离 人间 烟火 的 大 沙漠 上 。
+(x0 / sleep-01
+      :arg0  (x2 / i)
+      :location  (x4 / desert
+            :mod  (x5 / large)
+            :mod  (x6 / this)
+            :arg0-of  (x7 / away from 
+                  :arg1  (x14 / affair-02
+                        :mod  (x15 / human))))
+      :time  (x9 / night
+            :ord  (x16 / ordinal-entity
+                  :value  (x17 / 1))))
+
+# ::id test_amr.42 ::2016-04-24 17:23:48
+# ::snt 我 比 大海 中 伏 在 小 木排 上 的 遇难者 还 要 孤独 得 多 。
+(x14 / lonely
+      :degree  (x16 / more)
+      :arg0  (x17 / i)
+      :compared-to  (x18 / person
+            :arg0-of  (x19 / shipwreck-01
+                  :arg0-of  (x20 / lie-07
+                        :arg1  (x21 / raft)
+                        :location  (x22 / ocean)))))
+
+# ::id test_amr.43 ::2016-04-24 17:31:24
+# ::snt 而 在 第二 天 拂晓 ， 当 一 个 奇怪 的 小 声音 叫醒 我 的 时候 ， 你们 可以 想见 我 当时 是 多么 吃惊 。
+(x0 / contrast
+      :arg2  (x2 / possible-01
+            :arg0  (x21 / imagine-01
+                  :arg0  (x22 / you)
+                  :arg1  (x23 / shock-01
+                        :arg0  (x24 / i)
+                        :time  (x25 / at that time)
+                        :degree  (x26 / very much)
+                        :time  (x27 / wake-01
+                              :arg0  (x28 / voice
+                                    :mod  (x29 / little)
+                                    :mod  (x31 / writ)
+                                    :quant  (x32 / 1))
+                              :arg1  (x33 / x24)
+                              :time  (x34 / sunrise
+                                    :ord  (x35 / ordinal-entity
+                                          :value  (x36 / 2))))))))
+
+# ::id test_amr.44 ::2016-04-07 16:23:28
+# ::snt 这 小小 的 声音 说道 ： “ 请 你 给 我 画 一 只 羊 ， 好 吗 ？ ”
+(x0 / say-01
+      :arg0  (x2 / voice
+            :mod  (x3 / little)
+            :mod  (x4 / this))
+      :arg1  (x5 / please
+            :arg1  (x6 / you)
+            :arg2  (x7 / draw-01
+                  :arg1  (x8 / sheep
+                        :quant  (x9 / 1))
+                  :beneficiary  (x10 / i))
+            :mode  (x14 / interrogative)))
+
+# ::id test_amr.45 ::2016-01-15 22:30:40
+# ::snt “ 啊 ？
+(x0 / say
+      :arg1  (x2 / what
+            :mode  (x3 / interrogative)))
+
+# ::id test_amr.46 ::2016-01-15 22:30:16
+# ::snt “ 给 我 画 一 只 羊 … ”
+(x0 / say
+      :arg1  (x2 / draw-01
+            :arg1  (x3 / sheep
+                  :quant  (x4 / 1))
+            :beneficiary  (x5 / i)))
+
+# ::id test_amr.47 ::2016-04-24 17:33:59
+# ::snt 我 象 是 受到 惊雷 轰击 一般 ， 一下子 就 站立 起来 。
+(x11 / resemble-01
+      :arg0  (x13 / i)
+      :arg1  (x14 / get-01
+            :arg0  (x15 / x13)
+            :arg1  (x16 / strike-01
+                  :arg0  (x18 / thunder)
+                  :arg1  (x19 / x13)))
+      :arg2  (x20 / stand-01
+            :arg0  (x21 / x13)
+            :manner  (x22 / immediate)
+
+# ::id test_amr.48 ::2016-04-24 17:34:54
+# ::snt 我 使劲 地 揉 了 揉 眼睛 ，
+(x6 / rub-01
+      :arg0  (x8 / i)
+      :arg1  (x9 / eye)
+      :manner  (x10 / hard-02
+            :arg0  (x11 / x8)))
+
+# ::id test_amr.49 ::2016-01-15 22:26:17
+# ::snt 仔细 地 看 了 看 。
+(x0 / look-01
+      :manner  (x2 / thorough))
+
+# ::id test_amr.50 ::2016-04-24 17:37:38
+# ::snt 我 看见 一 个 十分 奇怪 的 小家伙 严肃 地 朝 我 凝眸 望 着 。
+(x0 / see-01
+      :arg0  (x2 / i)
+      :arg1  (x14 / look-01
+            :arg0  (x15 / person
+                  :mod  (x16 / small)
+                  :mod  (x17 / extraordinary
+                        :degree  (x18 / very)))
+            :arg1  (x19 / x2)
+            :manner  (x20 / stare-01
+                  :arg0  (x21 / x15))
+            :manner  (x22 / serious-01
+                  :arg0  (x23 / x15))))
+                  
+# ::id test_amr.51 ::2016-04-24 17:40:33
+# ::snt 这 是 后来 我 给 他 画 出来 的 最 好 的 一 副 画像 。
+(x9 / portrait
+      :quant  (x11 / 1)
+      :mod  (x12 / good-02
+            :degree  (x13 / most))
+      :arg1-of  (x14 / draw-01
+            :arg0  (x15 / i)
+            :beneficiary  (x16 / he)
+            :time  (x17 / late))
+      :domain  (x18 / this))
+
+# ::id test_amr.52 ::2016-04-24 17:44:07
+# ::snt 可是 ， 我 的 画 当然 要 比 他 本人 的 模样 逊色 得 多 。
+(x0 / contrast
+      :arg2  (x9 / unattractive
+            :arg0  (x10 / picture
+                  :poss  (x11 / i)
+                  :compared-to  (x12 / appearance
+                        :poss  (x13 / he)
+                        :mod  (x14 / himself)))
+            :degree  (x15 / very)
+            :manner  (x16 / certain)))
+
+# ::id test_amr.53 ::2016-01-15 22:18:18
+# ::snt 这 不 是 我 的 过错 。
+(x0 / fault
+      :poss  (x2 / i)
+      :domain  (x4 / this)
+      :polarity  (x5 / -))
+
+# ::id test_amr.54 ::2016-04-24 17:55:30
+# ::snt 六 岁 时 ， 大人们 使 我 对 我 的 画家 生涯 失去 了 勇气 ， 除了 画 过 开 着 肚皮 和 闭 着 肚皮 的 蟒蛇 ， 后来 再 没有 学 过 画 。
+(x0 / causation
+      :arg2  (x20 / learn-01
+            :polarity  (x21 / -)
+            :manner  (x22 / again)
+            :arg1  (x24 / picture)
+            :time  (x25 / later)
+            :arg2-of  (x26 / except
+                  :arg1  (x27 / draw-01
+                        :arg1  (x29 / and
+                              :op1  (x30 / boa_constrictor
+                                    :arg0-of  (x31 / open-01
+                                          :arg1  (x32 / stomach)))
+                              :op2  (x33 / boa_constrictor
+                                    :arg0-of  (x34 / close-01
+                                          :arg1  (x35 / stomach))))
+                        :arg0  (x50 / x43)))
+            :arg0  (x49 / x43))
+      :arg1  (x42 / lose-02
+            :arg0  (x43 / i)
+            :arg1  (x44 / courage
+                  :topic  (x45 / career
+                        :mod  (x46 / painter)
+                        :poss  (x47 / x43)))
+            :cause  (x48 / grown-up)
+            :time  (x51 / age-01
+                  :arg0  (x52 / x43)
+                  :arg1  (x53 / temporal-quantity
+                        :quant  (x54 / 6)
+                        :unit  (x55 / year)))))
+
+# ::id test_amr.55 ::2016-04-24 17:58:43
+# ::snt 我 惊奇 地 睁大 着 眼睛 看 着 这 突然 出现 的 小家伙 。
+(x16 / look-01
+      :arg0  (x18 / i)
+      :arg1  (x19 / guy
+            :mod  (x20 / small)
+            :arg1-of  (x21 / appear-01
+                  :manner  (x22 / sudden))
+            :mod  (x23 / this))
+      :manner  (x24 / open-01
+            :manner  (x25 / large)
+            :arg0  (x26 / x18)
+            :arg1  (x27 / eye)
+            :cause  (x28 / astonished)))
+
+# ::id test_amr.56 ::2016-01-15 22:03:52
+# ::snt 你们 不 要 忘记 ， 我 当时 处 在 远离 人烟 千 里 之外 的 地方 。
+(x0 / recommend-01
+      :polarity  (x2 / -)
+      :arg0  (x3 / forget-01
+            :arg0  (x4 / you)
+            :arg1  (x5 / be-located-at-91
+                  :arg0  (x6 / i)
+                  :arg1  (x7 / place
+                        :mod  (x8 / far)
+                        :arg0-of  (x9 / from
+                              :arg1  (x10 / human)))
+                  :time  (x11 / then))))
+
+# ::id test_amr.57 ::2016-04-24 18:01:32
+# ::snt 而 这个 小家伙 给 我 的 印象 是 ， 他 既 不 象 迷 了 路 的 样子 ， 也 没有 半点 疲乏 、 饥渴 、 惧怕 的 神情 。
+(x0 / contrast
+      :arg2  (x2 / impression-03
+            :arg0  (x3 / huy
+                  :mod  (x4 / little))
+            :arg1  (x5 / i)
+            :arg2  (x6 / and
+                  :op1  (x7 / seem-01
+                        :polarity  (x8 / -)
+                        :arg0  (x9 / x3)
+                        :arg1  (x10 / stray-01
+                              :arg0  (x20 / x3)))
+                  :op2  (x11 / have-03
+                        :polarity  (x12 / -)
+                        :arg0  (x13 / x3)
+                        :arg1  (x14 / expression
+                              :quant  (x16 / slight)
+                              :mod  (x17 / fatigue-01
+                                    :arg0  (x21 / x3))
+                              :mod  (x18 / thirst-01
+                                    :arg0  (x22 / x3))
+                              :mod  (x19 / fear-01
+                                    :arg0  (x24 / x3)))))))
+
+# ::id test_amr.58 ::2016-01-15 21:55:51
+# ::snt 他 丝毫 不 象 是 一 个 迷失 在 旷无 人烟 的 大 沙漠 中 的 孩子 。
+(x0 / look-02
+      :polarity  (x2 / -)
+      :degree  (x3 / slightest)
+      :arg0  (x4 / he)
+      :arg1  (x5 / child
+            :quant  (x6 / 1)
+            :arg0-of  (x7 / lose-02
+                  :location  (x8 / desert
+                        :mod  (x9 / large)
+                        :mod  (x10 / uninhabited)))))
+
+# ::id test_amr.59 ::2016-04-24 19:42:32
+# ::snt 当 我 在 惊讶 之中 终于 又 能 说出 话 来 的 时候 ， 对 他 说道 ： “ 唉 ， 你 在 这儿 干 什么 ？ ”
+(x23 / say-01
+      :arg0  (x25 / i)
+      :arg3  (x26 / he)
+      :arg1  (x27 / x26
+            :location  (x28 / here)
+            :purpose  (x29 / amr-unknown)
+            :mode  (x30 / interrogative))
+      :time  (x31 / possible-01
+            :arg0  (x32 / possible
+                  :arg0  (x34 / speak-01
+                        :arg0  (x35 / x25)
+                        :time  (x37 / shock-01
+                              :arg0  (x38 / x25))))
+            :manner  (x36 / again)))
+
+# ::id test_amr.60 ::2016-04-24 19:59:05
+# ::snt 可是 他 却 不慌不忙 地 好象 有 一 件 重要 的 事 一般 ， 对 我 重复 地 说道 ： “ 请 … 给 我 画 一 只 羊 … ”
+(x0 / contrast
+      :arg2  (x22 / look-02
+            :arg1  (x23 / have-03
+                  :arg0  (x24 / he)
+                  :arg1  (x25 / affair
+                        :quant  (x26 / 1)
+                        :mod  (x27 / important-01)))
+            :arg2  (x28 / say-01
+                  :arg0  (x29 / x24)
+                  :manner  (x30 / slow-05)
+                  :manner  (x31 / repeat-01)
+                  :arg3  (x32 / i)
+                  :arg1  (x33 / please
+                        :arg0  (x34 / x24)
+                        :arg1  (x35 / x32)
+                        :arg2  (x36 / draw-01
+                              :arg0  (x38 / x32)
+                              :arg1  (x39 / sheep
+                                    :quant  (x40 / 1))
+                              :beneficiary  (x41 / x24))))))
