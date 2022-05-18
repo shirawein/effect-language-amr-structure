@@ -1,0 +1,128 @@
+# ::id test_amr.1 ::2015-10-29 15:09:16
+# ::snt I
+(x0 / I)
+
+# ::id test_amr.2 ::2016-04-22 15:25:20
+# ::snt 当 我 还 只 有 六 岁 的 时候 ， 在 一 本 描写 原始 森林 的 名 叫 《 真实 的 故事 》 的 书 中 ， 看到 了 一 副 精彩 的 插画 ，
+(x17 / see-01
+      :arg1  (x20 / picture
+            :mod  (x21 / magnificent-01)
+            :quant  (x22 / 1)
+            :location  (x23 / book-01
+                  :topic  (x27 / depict-01
+                        :arg0  (x28 / forest
+                              :mod  (x29 / primeval-01)))
+                  :quant  (x30 / 1)
+                  :name  (x42 / name :op1 "True Stories")))
+      :time  (x36 / age-01
+            :arg2  (x38 / temporal-quantity
+                  :quant  (x39 / 6)
+                  :unit  (x41 / year))
+            :arg1  (x44 / i))
+      :arg0  (x45 / x44))
+
+# ::id test_amr.3 ::2015-11-16 09:58:48
+# ::snt 画 的 是 一 条 蟒蛇 正在 吞食 一 只 大 野兽 。
+(x12 / swallow-01
+      :arg0  (x14 / boa_constrictor
+            :quant  (x15 / 1))
+      :arg1  (x16 / beast
+            :mod  (x17 / huge-01)
+            :quant  (x18 / 1))
+      :domain  (x19 / thing
+            :arg1-of  (x20 / draw-01))
+      :time  (x21 / progressive))
+
+# ::id test_amr.4 ::2016-02-04 22:48:22
+# ::snt 页头 上 就 是 那 副 画 的 摹本 。
+(x9 / copy
+      :location  (x14 / header)
+      :poss  (x15 / drawing
+            :mod  (x16 / that))
+      :domain  (x17 / thing))
+
+# ::id test_amr.5 ::2016-04-22 15:28:09
+# ::snt 这 本 书 中 写道 ： “ 这些 蟒蛇 把 它们 的 猎获物 不加 咀嚼 地 囫囵 吞下
+(x11 / writes-01
+      :arg0  (x13 / book-01)
+      :arg1  (x14 / swallow-01
+            :arg0  (x15 / boa
+                  :mod (x12 / constrictor)
+                  :mod  (x16 / these))
+            :arg1  (x17 / prey
+                  :poss  (x25 / x15))
+            :manner  (x19 / whole)
+            :manner  (x21 / chew-01
+                  :polarity  (x24 / -))))
+
+# ::id test_amr.6 ::2016-04-18 22:32:45
+# ::snt 尔后 就 不 能 再 动弹 了 ； 它们 就 在 长长 的 六 个 月 的 睡眠 中 消化 这些 食物 。 ”
+(x17 / say
+      :arg1  (x26 / and
+            :op1  (x27 / possible-01
+                  :polarity  (x28 / -)
+                  :manner  (x29 / therefore)
+                  :arg0  (x30 / move-01
+                        :manner  (x31 / again-01))
+                  :time  (x32 / then))
+            :op2  (x33 / digest-01
+                  :arg0  (x34 / they)
+                  :manner  (x35 / therefore)
+                  :arg1  (x36 / food
+                        :mod  (x37 / this))
+                  :time  (x38 / sleep-01
+                        :arg0  (x39 / x34)
+                        :duration  (x40 / temporal-quantity
+                              :quant  (x41 / 6)
+                              :mod  (x43 / long)
+                              :unit  (x44 / month))))))
+
+# ::id test_amr.7 ::2015-11-16 10:16:32
+# ::snt 当时 ， 我 对 丛林 中 的 奇遇 想 得 很 多 ，
+(x8 / ponder-01
+      :arg0  (x10 / i)
+      :arg1  (x11 / encountering
+            :location  (x12 / forest))
+      :degree  (x13 / many-03
+            :degree  (x14 / very))
+      :time  (x15 / then))
+
+# ::id test_amr.8 ::2016-03-01 17:02:30
+# ::snt 于是 ， 我 也 用 彩色 铅笔 画 出 了 我 的 第一 副 图画 。
+(x9 / causation
+      :arg1  (x11 / draw-01
+            :arg0  (x12 / i)
+            :arg1  (x13 / picture
+                  :poss  (x15 / x12)
+                  :ord  (x18 / ordinal-entity
+                        :value  (x19 / 1)))
+            :instrument  (x16 / pencil
+                  :mod  (x17 / color))))
+
+# ::id test_amr.9 ::2016-02-26 15:10:23
+# ::snt 我 的 第一 号 作品 。
+(x4 / artwork
+      :poss  (x7 / i)
+      :ord  (x8 / ordinal-entity
+            :value  (x9 / 1)))
+
+# ::id test_amr.10 ::2016-04-22 15:34:46
+# ::snt 它 是 这样 的 ： 我 把 我 的 这 副 杰作 拿 给 大人 看 ， 我 问 他们 我 的 画 是 不 是 叫 他们 害怕 。
+(x28 / resemble
+      :domain  (x30 / it)
+      :arg0-of  (x31 / mean
+            :arg1  (x32 / and
+                  :op1  (x33 / take-01
+                        :arg0  (x34 / i)
+                        :arg1  (x35 / masterpiece
+                              :mod  (x36 / this)
+                              :poss  (x37 / x34))
+                        :purpose  (x38 / see-02
+                              :arg0  (x39 / grown-up)))
+                  :op2  (x40 / ask-01
+                        :arg0  (x41 / x34)
+                        :arg1  (x42 / frighten-01
+                              :arg0  (x43 / x39)
+                              :arg1  (x44 / x35))
+                        :arg2  (x45 / x39)
+                        :mode  (x46 / interrogative)))))
